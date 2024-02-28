@@ -1,0 +1,48 @@
+
+
+.videoCard{
+    width: 30vmax;
+    height:48vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-size:cover;
+    border: 2px solid ;
+    margin: 1.5vmax;
+    cursor: pointer;
+    
+    }
+    
+    .videoCard > a {
+    padding: 2.5vmax;
+    transition: all 0.5s;
+    border: none;
+    border: 2px solid coral;
+    border-radius: 100%;
+    transition: all 0.5s;
+    background-color: rgba(255, 255, 255, 0.096);
+    color: white;
+    }
+.videoCard:hover{
+    transform: translateY(-0.4vmax);
+    box-shadow: 12px 12px 15px rgba(53, 53, 53, 0.363);
+}
+
+    .videoCard > a > svg {
+    fill: rgb(248, 255, 247);
+    }
+    .videoCard:hover a {
+    background-color: coral;
+   
+    }
+    
+    .videoCard p {
+        color: white;
+        margin: 1vmax;
+    }
+    .videoCard p:hover {
+        color: rgb(255, 255, 255);
+        text-decoration: underline;
+    }

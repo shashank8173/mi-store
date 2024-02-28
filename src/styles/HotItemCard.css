@@ -1,0 +1,30 @@
+.HotItemCard{
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    width: 31%;
+    align-items: center;
+    transition: all 0.5s;
+    cursor: pointer;
+}
+
+.HotItemCard:hover{
+    box-shadow: 0px 6px 15px rgb(47, 47, 47);
+    transform: translateX(-0.4vmax);
+}
+
+.HotItemCard > img{
+    width: 70%;
+}
+.HotItemCard>p{
+    color: rgb(109, 109, 109);
+    font-family:'Times New Roman', Times, serif
+
+}
+
+.HotItemCard>span{
+    margin: -1vmax ,0vmax,;
+    color: coral;
+    font-family:'Times New Roman', Times, serif
+
+}

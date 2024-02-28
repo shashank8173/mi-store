@@ -1,0 +1,42 @@
+.preNav{
+    background-color: black;
+    display: grid;
+    grid-template-columns: 5fr 2fr;
+    color: rgb(214, 214, 214);
+
+    
+}
+.preNav>div{
+    padding: 0vmax 3vmax;
+    text-align: left;
+    /* border: 2px solid rgb(230, 230, 230); */
+    display: flex;
+    align-items: center;
+}
+
+.preNav>div>span{
+    color: rgb(214, 214, 214);
+    font-size: 1.5vmax;
+    font-weight: bold; 
+}
+
+.preNav>div>a{
+    color: rgb(214, 214, 214);
+    font-size: 15px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 300;
+    margin: 1vmax;
+    text-decoration: none;
+}
+
+.preNav > div>a:hover{
+    color: coral;
+    text-decoration: underline;
+}
+
+.preNav>div svg{
+ fill: aliceblue;
+}
+.preNav>div svg:hover{
+    fill: coral;
+}
